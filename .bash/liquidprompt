@@ -1,0 +1,4 @@
+# Include liquidprompt
+if [ -f ~/.liquidprompt/liquidprompt ]; then
+  [[ $- = *i* ]] && source ~/.liquidprompt/liquidprompt
+fi
